@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: PetFriends_Almoxarifado
+  cloud:
+    gcp:
+      pubsub:
+        project-id: your-project-id
+        credentials:
+          location: file:/path/to/your/service-account-file.json
+
+server:
+  port: 8082
+
